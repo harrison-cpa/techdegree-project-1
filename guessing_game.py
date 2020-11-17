@@ -41,7 +41,7 @@ while play_again != "N":
                     high_score = number_of_guesses
                 play_again = input("Would you like to play again? Y/N   ").upper()
                 while play_again != "Y" and play_again != "N":
-                    play_again = input("\nOops! You must put in a Y or N:  ").upper()
+                    play_again = input("\nOops! You must put in a Y or N.\nWould you like to play again? Y/N   ").upper()
 
 
 print("\nThe game is over, have a great day!") 
